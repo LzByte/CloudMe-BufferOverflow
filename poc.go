@@ -1,7 +1,8 @@
+// Translated by LzByte from Python to Golang
+//
 // Exploit Title: CloudMe 1.11.2 - Buffer Overflow (PoC)
 // Date: 2020-04-27
 // Exploit Author: Andy Bowden
-// Translated by LzByte from Python to Golang
 // Vendor Homepage: https://www.cloudme.com/en
 // Software Link: https://www.cloudme.com/downloads/CloudMe_1112.exe
 // Version: CloudMe 1.11.2
